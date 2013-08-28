@@ -25,9 +25,9 @@ LANGUAGES = (
 SECRET_KEY = '=q9gc4e4c=w^-4fnt3#vsnsm=n*k_ttcr@8_6wtma(h*w4-e$_'
 
 INSTALLED_APPS = (
-    # 'loganalyzer.apps.',
+    'loganalyzer.apps.nginxlog',
 
-    #'south',
+    'south',
 
     'django.contrib.auth',
     'django.contrib.contenttypes',

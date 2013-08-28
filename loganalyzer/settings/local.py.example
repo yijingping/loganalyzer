@@ -18,9 +18,13 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(VAR_ROOT, 'dev.db'),
-    }
+        'NAME': 'loganalyzer',
+        'ENGINE': 'django.db.backends.mysql',
+        'USER': 'root',
+        'PASSWORD': '123456',
+        'HOST': '127.0.0.1',
+        'TEST_CHARSET': 'utf8',
+    },
 }
 
 # ROOT_URLCONF = 'loganalyzer.urls.local'
